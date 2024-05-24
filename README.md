@@ -43,7 +43,7 @@ I also wanted to indicate the number count that changes after finish each round.
 ### 🟨 Stage 2
 - Name/Alias: Odette MH / ODESSSO
 - Github account: https://github.com/odessso
-- Published webpage for stage 2:
+- Published webpage for stage 2: https://yjk2004.github.io/exquisite-corpse-stage-2-hypothetical-year/
 
 *... comments to be added here*
 
