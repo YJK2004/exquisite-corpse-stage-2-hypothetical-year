@@ -1,5 +1,5 @@
 # Exquisite Corpse in Silico
-## 🔻 HYPOTHETICAL YEAR 🔻
+## 🔻CALENDAR: mood with emoji🔻
 
 This README file contains:
 - Briefs for each stage of the assignment
@@ -29,23 +29,20 @@ Reimagine something from a Stage 4 sketch as a living entity or an environment.
 ## Comments for each stage
 
 ### 🟥 Stage 1
-- Name/Alias: Odette MH / ODESSSO
-- Github account:https://github.com/odessso
+- Name/Alias: Sarah
+- Github account: https://github.com/YJK2004
 - Published webpage for stage 1: https://odessso.github.io/exquisite-corpse-stage-1-hypothetical-year/
 
-Welcome to this hypothetical little universe which follows a hypothetical sequence of hypothetical seasons.
+##### notes
+My purpose of this sketch to create a calendar that changes the right mood of the day with emojis everytime the day changes. At first, I referred to Leo's sketch, but it was far from what I wanted to do so I dedcided to get help from AI generator this time. I learned another calls(coding) through AI generator.
 
-I am really interested in the naturally occuring types of time - and how we tend to forget about this mesasurment of time in the overbearing presence of the man-made clock. In comparison to the ticking hands of the mechanical timepiece, the natural world around us keeps track of time in a very different way, following and changing with the path of the sun in a perpertual and fairly predictable loop.
-
-I wanted to create a hypothetical natural loop that follows similar seasonal cycles to Earth, but on a smaller scale. There are 26 images in the changing cycle, which each represent about 14 days passing. the loop cycles through 365 days worth of seasonal changes in 26 seconds.
-
-To create the first image I began by asking generative AI to process one single "summer" landscape. I wanted it to be as broad a promt as possible so that there would be some room for the AI to essentially make choices about what it wanted to present. Then I went into photoshop with the image and continiued to apply new generative AI fill overtop each new image and add prompts to areas such as "winter snowstorm sky" "dry barren desert" "spring flowers" "wetlands" etc. The outcome was a 26 step transformation of a single AI generated image of what it percieves as natural life. 
-
-It took some time to blend each new image into the next and there was a lot of trial and error with what the generative fill would create. I wanted the flow of time to have some logic to it which is why it roughly follows Earth's seasonal changes.
+'lastFrame' keeps track of the frame count when the text was last changed.
+In the 'draw()' function, it checks if 60 frames (which is roughly equivalent to 1 second at 60 frames per secon) have elapsed since the last text change. If so, it increments'currentIndex' and updates 'lastFrame'. This endsures the text changes automatically without needing a mouse click.
+I also wanted to indicate the number count that changes after finish each round. I added a 'weekCount' variable to keep track of the number of completed weeks. The "week:" label is displayed along with the 'weekCount' variable. When one round(a week) is completed(i.e. 'currentIndex' is back to 0). the 'weekCount' is increased by 1.
 
 ### 🟨 Stage 2
-- Name/Alias:
-- Github account:
+- Name/Alias: Odette MH / ODESSSO
+- Github account: https://github.com/odessso
 - Published webpage for stage 2:
 
 *... comments to be added here*
